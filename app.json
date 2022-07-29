@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Rescue Girls",
+    "slug": "rescue-girls",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./app/assets/logo.png",
+    "notification": {
+      "icon": "./app/assets/logo.png",
+      "color": "#ffffff",
+      "androidMode": "default",
+      "androidCollapsedTitle": "Rescue Girls",
+      "iosDisplayInForeground": true
+    },
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.soumitra.rescue",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/logo.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": ""
+  }
+}
